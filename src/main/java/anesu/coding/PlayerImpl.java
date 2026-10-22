@@ -36,6 +36,7 @@ public class PlayerImpl implements Player {
     }
   }
 
+
   @Override
   public void receiveMessage(String message, Player sender) {
     System.out.println(name + " received: \"" + message + "\"");
